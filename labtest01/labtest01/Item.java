@@ -24,6 +24,38 @@ public class Item
 		aPrice = pPrice;
 	}
 	
+	
+	public void compareItems(Item1, Item2) 
+	{
+		
+	}
+	
+// 	public void stock(Item pItem, int pQuantity)
+// 	{
+// 		int amount = 0;
+// 		if( aInventory.containsKey(pItem))
+// 		{
+// 			amount = aInventory.get(pItem);
+// 		}
+// 		amount += pQuantity;
+// 		aInventory.put(pItem, amount);
+// 	}
+	
+// 	/**
+// 	 * Removes pQuantity of items from the inventory,
+// 	 * for example by selling them or tossing them in
+// 	 * the garbage.
+// 	 * @param pItem The type of item to dispose of
+// 	 * @param pQuantity The amount to dispose.
+// 	 * @pre aInventory.containsKey(pItem) && pQuantity >= aInventory.get(pItem)
+// 	 */
+// 	public void dispose(Item pItem, int pQuantity)
+// 	{
+// 		int amount = aInventory.get(pItem);
+// 		amount -= pQuantity;
+// 		aInventory.put(pItem, amount);
+// 	}
+	
 	/**
 	 * @return The name of the item
 	 */
