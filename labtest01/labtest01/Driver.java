@@ -20,7 +20,7 @@ public final class Driver
 	/**
 	 * @param pArgs Not used
 	 */
-	public static void main(String[] pArgs)
+	public static void main(String[] ITEMS)
 	{
 		Random random = new Random();
 		Inventory inventory1 = new Inventory("IGA Location 1");
