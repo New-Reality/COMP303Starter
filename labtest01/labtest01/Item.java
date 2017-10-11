@@ -47,4 +47,13 @@ public class Item
 	{
 		return aPrice;
 	}
+	
+	public static boolean equals() 
+	{
+		if (getName(pName) != getPrice(pPrice) || getPrice(pPrice) !=	getID(pID)  || getName(pName) != getId(pID)) {
+			return false;
+		} else {
+			return true;
+		}
+	}
 }
